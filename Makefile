@@ -12,3 +12,12 @@ hello.o:	hello.c
 
 clean:
 	rm hello.o hello.exe
+
+# Usage of Automatic variables to replace above Makefile
+#all:	hello.exe
+#hello.exe:	hello.o
+#	gcc -o $@ $<
+#hello.o:	hello.c
+#	gcc -c $<
+#clean:
+#	rm hello.o $@
