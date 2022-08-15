@@ -1,3 +1,7 @@
+# target:	pre-req1	pre-req2	pre-req3 ...
+# Phony Target: Target not representing a file (Ex: clean here)
+# If target is file: Pre-reqs checked for file changes
+# Std Phony targets: all, clean, install
 all:	hello.exe
 
 hello.exe:	hello.o
